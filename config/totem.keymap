@@ -52,7 +52,29 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <22 23>;
+        };
+
+        Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <24 23>;
+        };
+
+        Cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <22 24>;
+        };
+
+        PasteNoFormat {
+            bindings = <&kp LC(LS(V))>;
+            key-positions = <22 23 24>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -80,10 +102,10 @@
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &trans    &trans  &kp LPAR  &kp RPAR    &trans         &trans     &kp LBRC       &kp RBRC         &trans   &trans
-&trans  &trans    &trans  &kp LBKT  &kp RBKT    &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
-                          &trans    &trans      &trans         &trans     &trans         &trans
+        &kp EXCL   &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR  &kp MINUS  &kp EQUAL
+        &kp GRAVE  &trans  &kp LPAR  &kp RPAR    &trans         &trans     &kp LBRC       &kp RBRC  &trans     &kp BSLH
+&trans  &trans     &trans  &kp LBKT  &kp RBKT    &trans         &kp UNDER  &kp EQUAL      &trans    &trans     &trans     &trans
+                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
 
