@@ -4,7 +4,7 @@
 if SHIELD_TOTEM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "TOTEM_V1.2"
+    default "TOTEM_V1.3"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
