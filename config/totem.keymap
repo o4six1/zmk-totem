@@ -99,10 +99,10 @@
 
         Gaming {
             bindings = <
-            &trans  &trans  &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans
-            &kp A   &kp S   &kp D      &kp F         &mo 5     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &trans  &trans  &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                            &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
+            &trans  &kp Q   &kp W   &kp E      &trans    &trans  &trans     &kp UP    &trans     &trans
+            &trans  &kp A   &kp S   &kp D      &mo 5     &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans     &trans    &trans  &trans     &trans    &trans     &trans  &trans
+                            &trans  &kp SPACE  &trans    &trans  &kp SPACE  &trans
             >;
 
             label = "Gaming";
