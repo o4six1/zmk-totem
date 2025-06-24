@@ -70,10 +70,10 @@
         NumNav {
             label = "NumNav";
             bindings = <
-              &trans     &trans    &kp UP_ARROW  &kp N9     &kp LBRC     &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-              &kp N0     &kp LEFT  &kp DOWN      &kp RIGHT  &kp EQUAL    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &kp MINUS  &kp N1    &kp N2        &kp N3     &kp FSLH     &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                                   &trans        &trans     &trans       &trans    &trans        &kp NUMBER_0
+              &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTRK    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+              &kp N0     &kp N4  &kp N5  &kp N6  &kp EQUAL    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp LEFT_ALT  &kp MINUS  &kp N1  &kp N2  &kp N3  &kp FSLH     &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
+                                 &trans  &trans  &trans       &trans    &trans        &kp NUMBER_0
             >;
         };
 
