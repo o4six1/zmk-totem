@@ -60,9 +60,9 @@
         Base {
             label = "Base";
             bindings = <
-         &kp Q       &kp W       &kp E        &kp R            &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
-         &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F     &kp G         &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&kp ESC  &kp Z       &kp X       &kp C        &kp V            &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp SQT
+         &kp Q       &kp W       &kp F        &kp P            &kp B         &kp J      &kp L        &kp U        &kp Y       &kp SEMI
+         &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T     &kp G         &kp M      &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
+&kp ESC  &kp Z       &kp X       &kp C        &kp D            &kp V         &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH   &kp SQT
                                  &lt 3 DEL    &lt 2 BACKSPACE  &kp LSHIFT    &kp ENTER  &lt 1 SPACE  &kp TAB
             >;
         };
