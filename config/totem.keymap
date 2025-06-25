@@ -74,6 +74,21 @@
             bindings = <&kp LC(LS(V))>;
             key-positions = <22 23 24>;
         };
+
+        Caps {
+            bindings = <&kp CAPS>;
+            key-positions = <13 16>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 12 11>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 17 16>;
+        };
     };
 
     keymap {
@@ -104,13 +119,13 @@
             bindings = <
         &kp EXCL   &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR  &kp MINUS  &kp EQUAL
         &kp GRAVE  &trans  &kp LPAR  &kp RPAR    &trans         &trans     &kp LBRC       &kp RBRC  &trans     &kp BSLH
-&trans  &trans     &trans  &kp LBKT  &kp RBKT    &trans         &kp UNDER  &kp EQUAL      &trans    &trans     &trans     &trans
+&trans  &trans     &trans  &kp LBKT  &kp RBKT    &trans         &trans     &trans         &trans    &trans     &trans     &trans
                            &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
 
         Func {
-            label = "Button";
+            label = "Func";
             bindings = <
             &trans  &trans  &kp C_BRI_DN  &kp C_BRI_UP  &bt BT_SEL 0    &trans      &trans            &trans      &bootloader  &trans
             &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP  &bt BT_SEL 1    &trans      &kp RSHIFT        &kp RCTRL   &kp RALT     &kp RGUI
@@ -123,7 +138,7 @@
             bindings = <
             &trans  &kp Q   &kp W   &kp E      &trans    &trans  &trans     &kp UP    &trans     &trans
             &trans  &kp A   &kp S   &kp D      &mo 5     &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans
-&kp ESCAPE  &trans  &trans  &trans  &trans     &trans    &trans  &trans     &trans    &trans     &trans  &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans     &trans    &trans  &trans     &trans    &trans     &trans  &to 0
                             &trans  &kp SPACE  &trans    &trans  &kp SPACE  &trans
             >;
 
