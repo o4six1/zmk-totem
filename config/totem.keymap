@@ -126,9 +126,9 @@
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL   &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR  &kp MINUS  &kp EQUAL
-        &kp GRAVE  &trans  &kp LPAR  &kp RPAR    &trans         &trans     &kp LBRC       &kp RBRC  &trans     &kp BSLH
-&trans  &trans     &trans  &kp LBKT  &kp RBKT    &trans         &trans     &trans         &trans    &trans     &trans     &trans
+        &kp EXCL   &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR          &kp MINUS  &kp EQUAL
+        &kp GRAVE  &trans  &kp LPAR  &kp RPAR    &trans         &trans     &kp LBRC       &kp RBRC          &trans     &kp BSLH
+&trans  &trans     &trans  &kp LBKT  &kp RBKT    &trans         &trans     &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans     &trans
                            &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
