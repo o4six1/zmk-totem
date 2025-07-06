@@ -100,7 +100,7 @@
          &kp Q       &kp W       &kp F        &kp P            &kp B         &kp J      &kp L        &kp U        &kp Y       &kp SEMI
          &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T     &kp G         &kp M      &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
 &kp ESC  &kp Z       &kp X       &kp C        &kp D            &kp V         &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH   &kp SQT
-                                 &lt 4 DEL    &lt 3 BACKSPACE  &kp LSHIFT    &kp ENTER  &lt 2 SPACE  &kp TAB
+                                 &lt 4 DEL    &lt 3 BACKSPACE  &kp LSHIFT    &kp ENTER  &lt 2 SPACE  &lt 7 TAB
             >;
         };
 
@@ -163,6 +163,15 @@
             >;
 
             label = "Gaming+";
+        };
+
+        vim {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp H   &kp J   &kp K   &kp L
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
