@@ -100,7 +100,7 @@
          &kp Q       &kp W       &kp F        &kp P            &kp B         &kp J      &kp L        &kp U        &kp Y       &kp SEMI
          &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T     &kp G         &kp M      &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
 &kp ESC  &kp Z       &kp X       &kp C        &kp D            &kp V         &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH   &kp SQT
-                                 &lt 4 DEL    &lt 3 BACKSPACE  &kp LSHIFT    &kp ENTER  &lt 2 SPACE  &lt 7 TAB
+                                 &lt 4 DEL    &lt 3 BACKSPACE  &kp LSHIFT    &kp ENTER  &lt 2 SPACE  &kp TAB
             >;
         };
 
@@ -116,9 +116,9 @@
         NumNav {
             label = "NumNav";
             bindings = <
-        &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTRK    &trans  &kp PAGE_UP    &kp UP    &kp HOME   &trans
-        &kp N0     &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &kp LEFT       &kp DOWN  &kp RIGHT  &trans
-&trans  &kp MINUS  &kp N1  &kp N2  &kp N3  &kp FSLH     &trans  &kp PAGE_DOWN  &trans    &kp END    &trans  &trans
+        &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTRK    &trans  &kp PAGE_UP    &kp HOME  &trans  &trans
+        &kp N0     &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &kp LEFT       &kp DOWN  &kp UP  &kp RIGHT
+&trans  &kp MINUS  &kp N1  &kp N2  &kp N3  &kp FSLH     &trans  &kp PAGE_DOWN  &kp END   &trans  &trans     &trans
                            &trans  &trans  &kp DOT      &trans  &trans         &trans
             >;
         };
@@ -163,15 +163,6 @@
             >;
 
             label = "Gaming+";
-        };
-
-        vim {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp H   &kp J   &kp K   &kp L
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
         };
     };
 };
